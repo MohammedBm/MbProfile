@@ -5,12 +5,12 @@
 
 $main-bg-color: rgb(255, 255, 255);
 $accent-blue: #37bbe4;
-$accent-gray: #e1e0dd;
-$accent-black: #35342f;
+$accent-gray: #e1e0dd;  
+$accent-black: #3b465c;
 $accent-orange: #ec6b2d;
 $accent-red: #dd6464;
-$project-container-color: #ece9df;
-
+$project-container-color: #ffffff;
+$light-grey: rgba(0, 0, 0, .54);
 @import "bourbon";
 $color-snow: #fff;
 $color-silver: #c5c5c5;
@@ -21,6 +21,8 @@ $header-background-color: rgba(255, 255, 255, 0.9);
 
 $statistics-background-color: $color-snow;
 $statistics-color: $accent-black;
+$secondry-text: $light-grey;
+
 
 body {
   background: $main-bg-color;    
@@ -33,6 +35,10 @@ body {
   @media only screen and (max-device-width: 600px) {
     font-size: 3rem;
   }
+}
+
+.secondry-text {
+  color:$secondry-text;
 }
 
 h2 {
@@ -57,8 +63,6 @@ h3 {
   text-align: left;
 }
 
-
-
 .project-container {
   display: inline-block ;
   flex-direction: column;
@@ -66,33 +70,60 @@ h3 {
   height: auto;
   width: 48% ;
   padding:20px;
-  margin: 10px;
+  margin: 10px; 
   margin-bottom: 4vh;
-  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  // -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  //   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+  //         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;   // <---these can be added to add shadow for the boxes
+}
+.btn-on-intro {
+  background-color: black;
+  border-radius: 6px;
+  padding: 10px 20px;
+  transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+}
+
+.btn-on-intro:hover {
+  background-color: black;
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  // transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+} 
+
+// .project-link {
+//   color: $accent-black;
+// }
+
+.link-to-project {
+  display:block;
+  text-decoration: none !important;
+  color: $accent-black;
+    transition: transform .25s ease-out,
+    -webkit-transform .25s ease-out;
+}
+
+.link-to-project:hover {
+    transform: scale(1.03, 1.03);
+    -webkit-transform: scale(1.03, 1.03);
+    -moz-transform: scale(1.03, 1.03);
 }
 
 .screenshot-container {
   margin-right: 4vw;
   height: auto;
-  width: 100%;
-  background-color: rgba(0,0,0,0);
+  width: 100%;  
+  transition: box-shadow .25s;
 }
 
 .screenshot-container img {
   width: 100%;
-  margin-bottom: 2em;
   position: relative;
-  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -moz-bsox-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .10);
 }
 
-.screenshot-container div {
-  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+.screenshot-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .15);
 }
 
 .iphone {
@@ -197,14 +228,14 @@ footer {
   text-align: center;
   padding-top: 5vh;
 
-  a {
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 
-    &:hover {
-      color: $accent-blue;
-    }
+  &:hover {
+    color: $accent-blue;
   }
+}
 
   #heart{
     color: $accent-red;
@@ -219,25 +250,8 @@ footer {
   padding-top: 10px;
 }
 
-.btn-on-intro{
-  background-color: black;
-  border-radius: 6px;
-  padding: 10px 20px;
-
-  transition: transform .25s ease-out,
-  -webkit-transform .25s ease-out;
-}
-
-.btn-on-intro:hover{
-  background-color: black;
-  transform: scale(1.1, 1.1);
-  -webkit-transform: scale(1.1, 1.1);
-  -moz-transform: scale(1.1, 1.1);
-  transition: transform .25s ease-out, -webkit-transform .25s ease-out;
-}
-
 .header a {
-  color: $header-text-color; 
+  color: $accent-black; 
   font-family: 'Lato', sans-serif;
   font-size: 1.1em;
   margin-top: -5px;
@@ -250,7 +264,7 @@ ul.nav{
 .nav-link{
   border-bottom: 4px solid transparent;
   transition: border-bottom .3s;
-  &:hover{border-bottom: 4px solid rgb(0, 0, 0);}
+  &:hover{border-bottom: 4px solid $accent-black}
 }
 
 .name-head {
@@ -270,9 +284,9 @@ ul.nav{
 .jumboLink{
     transition: border-bottom .3s;
   &:hover {
-    border-bottom: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid $accent-black;
   };
-  color: black;
+  color: #3b465c  ;
 }
 
 .hide-when-small {
@@ -287,7 +301,7 @@ ul.nav{
 
 .iconOnJumbo {
   padding: 10px;
-  color: black; 
+  color: #3b465c;
 }
 
 .nav > li > a:focus,
@@ -325,6 +339,7 @@ ul.nav{
 }
 
 .introduction {
+  margin-top: 60px;
   height: 40vh;
   background-color: white;
 }

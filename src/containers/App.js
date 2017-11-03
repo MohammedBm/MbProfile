@@ -24,7 +24,7 @@ export  class App extends Component {
     const projectEntries = projects.map((project, index) => {
       return <Project key={index} project={project} />;
     });
-    // we can use ES6's object destructuring to effectively 'unpack' our props
+    // we can use ES6's object destructuring to effectively 'unpack' our props    
     return (
       <div className="main-app-container">
       <Header personalInfo={personalInfo} />
@@ -33,8 +33,9 @@ export  class App extends Component {
           {/* <Statistics benchmark={benchmark} /> */}
           <Introduction personalInfo={personalInfo} />
           <div className="main-app-nav">Selected Projects</div>
-          {/* notice that we then pass those unpacked props into the Counter component */}
+          <div className='row'>
             {projectEntries}
+          </div>
           <Footer personalInfo={personalInfo} />
         </div>
       </div>
