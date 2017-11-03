@@ -18,7 +18,6 @@ export default class Project extends Component {
         <div className="image-container" >
           <div className="screenshot-container">
             { project.gfycat ? <div className="gfyitem" data-id="SilkyNextIrishwolfhound" ></div> : <img src={project.desktop_image}/> }
-            { project.mobile_image !== '' ? <Mobile image={project.mobile_image}/> : null }
           </div>
         </div>
         <div className="project-info">

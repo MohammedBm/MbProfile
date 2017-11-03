@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Statistics from '../components/Statistics';
 import { startTime } from '../index';
-
+import Introduction from '../components/Introduction'
 /**
  * It is common practice to have a 'Root' container/component require our main App (this one).
  * Again, this is because it serves to wrap the rest of our application with the Provider
@@ -27,12 +27,16 @@ export  class App extends Component {
     // we can use ES6's object destructuring to effectively 'unpack' our props
     return (
       <div className="main-app-container">
-        <Header personalInfo={personalInfo} />
-        <Statistics benchmark={benchmark} />
-        <div className="main-app-nav">Selected Projects</div>
-        {/* notice that we then pass those unpacked props into the Counter component */}
-          {projectEntries}
-        <Footer personalInfo={personalInfo} />
+      <Header personalInfo={personalInfo} />
+        <div className='container'> 
+
+          {/* <Statistics benchmark={benchmark} /> */}
+          <Introduction personalInfo={personalInfo} />
+          <div className="main-app-nav">Selected Projects</div>
+          {/* notice that we then pass those unpacked props into the Counter component */}
+            {projectEntries}
+          <Footer personalInfo={personalInfo} />
+        </div>
       </div>
     );
   }
