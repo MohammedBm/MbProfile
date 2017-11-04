@@ -107,7 +107,7 @@ h3 {
     transform: scale(1.03, 1.03);
     -webkit-transform: scale(1.03, 1.03);
     -moz-transform: scale(1.03, 1.03);
-    color:$light-grey;
+    color:#FD443E;
 }
 
 .screenshot-container {
@@ -265,7 +265,9 @@ ul.nav{
 .nav-link{
   border-bottom: 4px solid transparent;
   transition: border-bottom .3s;
-  &:hover{border-bottom: 4px solid $accent-black}
+  &:hover {
+    border-bottom: 4px solid #FD443E
+  }
 }
 
 .name-head {
@@ -273,7 +275,7 @@ ul.nav{
   transition: border-bottom .3s;
   text-decoration: none;
   &:hover {
-    border-bottom: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid #FD443E;
   }
 }
 .name-head>a:focus,
@@ -352,6 +354,7 @@ ul.nav{
 
 .tech-icon:hover {
   margin-left: 5px;
+  color:#FD443E;
   height: 2em;
     transform: scale(1.2  , 1.2 );
     -webkit-transform: scale(1.2  , 1.2 );
@@ -418,4 +421,5 @@ ul.nav{
 
 .display-3{
   font-weight: 500;
-  }
+  font-size: 3rem;
+}
