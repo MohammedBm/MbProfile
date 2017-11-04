@@ -24,7 +24,7 @@ export default class Project extends Component {
             <a href={project.project_url}  className='link-to-project' target="_blank">
               <h2 className ='project-link'>{project.title}</h2>
             </a>
-            <a href={project.github_url} target="_blank">
+            <a href={project.github_url} className='link-to-project'target="_blank">
               {project.github_url !== '' ? 'Github' : null}
             </a>
             <div className='secondry-text'>{project.date}</div>

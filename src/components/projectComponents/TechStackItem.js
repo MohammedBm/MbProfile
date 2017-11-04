@@ -11,16 +11,16 @@ export default class TechStackItem extends Component {
 
     if (iconsData[tech]) {
       return (
-        <div>
+        <div className='tech-icon'> 
           {tech}
-          <img className="tech-icon" src={iconsData[tech]} />
+          <img className="tech-icon-size" src={iconsData[tech]} />
         </div>
       );
     } else {
       return (
-        <div>
+        <div className='tech-icon'>
           {tech}
-          <img className="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Transparent_square.svg/2000px-Transparent_square.svg.png" />
+          <img className="tech-icon-size" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Transparent_square.svg/2000px-Transparent_square.svg.png" />
         </div>
       );
     }

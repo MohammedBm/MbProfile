@@ -107,6 +107,7 @@ h3 {
     transform: scale(1.03, 1.03);
     -webkit-transform: scale(1.03, 1.03);
     -moz-transform: scale(1.03, 1.03);
+    color:$light-grey;
 }
 
 .screenshot-container {
@@ -325,9 +326,37 @@ ul.nav{
   justify-content: space-between;
 }
 
+// .link-to-project {
+//   display: block;
+//   text-decoration: none !important;
+//   color: $accent-black;
+//   transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+// }
+
+// .link-to-project:hover {
+//   transform: scale(1.03, 1.03);
+//   -webkit-transform: scale(1.03, 1.03);
+//   -moz-transform: scale(1.03, 1.03);
+//   color: $light-grey;
+// }
+
+
+.tech-icon-size {
+    margin-left: 5px;
+    height: 2em;
+}
 .tech-icon {
+  transition: transform .25s ease-out,
+  -webkit-transform .25s ease-out;
+}
+
+.tech-icon:hover {
   margin-left: 5px;
   height: 2em;
+    transform: scale(1.2  , 1.2 );
+    -webkit-transform: scale(1.2  , 1.2 );
+    -moz-transform: scale(1.2 , 1.2  );
+
 }
 
 .statistics {
@@ -350,3 +379,43 @@ ul.nav{
     font-size: 3rem;
   } 
 }
+
+.jumbotron-on-intro{
+  margin-top: 70px;
+  margin-bottom: 45px;
+  background: white;
+}
+
+.article-skills{
+  width: 40%;
+}
+
+.list {
+  display: block;
+  letter-spacing: 0.5;
+  list-style-type: none;
+}
+
+.header-skills{
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: 1.15;
+  color:$accent-black;
+}
+
+.list-item{
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  line-height: 1.7;
+  font-size: 1.6rem;
+}
+
+.about {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  line-height: 1.5;
+}
+
+.display-3{
+  font-weight: 500;
+  }

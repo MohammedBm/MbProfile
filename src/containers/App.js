@@ -8,6 +8,7 @@ import Header from '../components/Header';
 import Statistics from '../components/Statistics';
 import { startTime } from '../index';
 import Introduction from '../components/Introduction'
+import About from "../components/About";
 /**
  * It is common practice to have a 'Root' container/component require our main App (this one).
  * Again, this is because it serves to wrap the rest of our application with the Provider
@@ -32,6 +33,7 @@ export  class App extends Component {
 
           {/* <Statistics benchmark={benchmark} /> */}
           <Introduction personalInfo={personalInfo} />
+          <About />
           <div className="main-app-nav">Selected Projects</div>
           <div className='row'>
             {projectEntries}
