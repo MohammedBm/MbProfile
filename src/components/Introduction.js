@@ -7,10 +7,12 @@ export default class Introduction extends Component {
     return (
       <div className='row'>
         <div className=" jumbotron-on-intro col-lg-6 col-md-6 col-sm-12">
-          <h1 className='display-3'>Hi, I'm Mohammed</h1>
-          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-          <hr class="my-4" />
-          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <h1 className='hi-3'>Hi, I'm Mohammed</h1>
+          <div className='lead text-on-jumbo'> 
+          <p >This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <hr />
+          <p>Full-stack web developer, trained in Ruby, Ruby on Rails, Node, Javascript, C++ and others. Open to opportunities.</p>
+          </div>
           <br />
           <br />
           <p class="lead">
@@ -29,7 +31,7 @@ export default class Introduction extends Component {
         </div>
       </div>
     );
-  }
+  }   
 }
 
 Introduction.propTypes = {

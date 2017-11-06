@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400);
-@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googzpis.com/css?family=Bitter);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
@@ -113,18 +113,19 @@ h3 {
 .screenshot-container {
   margin-right: 4vw;
   height: auto;
-  width: 100%;  
-  transition: box-shadow .25s;
+  width: 400px;  
 }
 
 .screenshot-container img {
-  width: 370px;
+  width: 450px;
+  height:300px;
   position: relative;
 }
 
 .center-image{
-  margin-left: 60px;
+  margin-left: 10px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .15);
+  transition: box-shadow .25s;
 }
 
 .center-image:hover{
@@ -288,11 +289,15 @@ ul.nav{
 }
 
 .jumboLink{
-    transition: border-bottom .3s;
+    transition: border-bottom .3s;  
   &:hover {
     border-bottom: 4px solid #FD443E;
   };
   color: #3b465c  ;
+}
+
+.text-on-jumbo {
+  font-weight: 300;
 }
 
 .hide-when-small {
@@ -347,7 +352,7 @@ ul.nav{
 
 
 .tech-icon-size {
-    margin-left: 5px;
+    margin-right: 5px;
     height: 2em;
 }
 .tech-icon {
@@ -359,9 +364,9 @@ ul.nav{
   margin-left: 5px;
   color:#FD443E;
   height: 2em;
-    transform: scale(1.2  , 1.2 );
-    -webkit-transform: scale(1.2  , 1.2 );
-    -moz-transform: scale(1.2 , 1.2  );
+    transform: scale(1.03  , 1.03 );
+    -webkit-transform: scale(1.03  , 1.03 );
+    -moz-transform: scale(1.03 , 1.03  );
 
 }
 
@@ -422,7 +427,7 @@ ul.nav{
   line-height: 1.5;
 }
 
-.display-3{
-  font-weight: 500;
-  font-size: 3rem;
+.hi-3{
+  font-size: 48px;
 }
+
