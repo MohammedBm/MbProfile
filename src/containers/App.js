@@ -26,7 +26,7 @@ export  class App extends Component {
       return <Project key={index} project={project} />;
     });
     // we can use ES6's object destructuring to effectively 'unpack' our props    
-    return (
+    return (  
       <div className="main-app-container">
       <Header personalInfo={personalInfo} />
         <div className='container'> 
@@ -34,7 +34,7 @@ export  class App extends Component {
           {/* <Statistics benchmark={benchmark} /> */}
           <Introduction personalInfo={personalInfo} />
           <About />
-          <div className="main-app-nav">Selected Projects</div>
+            <div className="main-app-nav">Selected Projects</div>
           <div className='row'>
             {projectEntries}
           </div>

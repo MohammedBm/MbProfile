@@ -68,9 +68,9 @@ h3 {
   flex-direction: column;
   background-color: $project-container-color;
   height: auto;
-  width: 48% ;
+  width: 49% ;
   padding:20px;
-  margin: 10px; 
+  margin: 5px; 
   margin-bottom: 4vh;
   // -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   //   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
@@ -97,7 +97,7 @@ h3 {
 
 .link-to-project {
   display:block;
-  text-decoration: none !important;
+  text-decoration: none !important; 
   color: $accent-black;
     transition: transform .25s ease-out,
     -webkit-transform .25s ease-out;
@@ -107,7 +107,7 @@ h3 {
     transform: scale(1.03, 1.03);
     -webkit-transform: scale(1.03, 1.03);
     -moz-transform: scale(1.03, 1.03);
-    color:#FD443E;
+    color:#FD443E;  
 }
 
 .screenshot-container {
@@ -118,13 +118,17 @@ h3 {
 }
 
 .screenshot-container img {
-  width: 100%;
+  width: 370px;
   position: relative;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .10);
 }
 
-.screenshot-container:hover {
+.center-image{
+  margin-left: 60px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .15);
+}
+
+.center-image:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
 .iphone {
@@ -211,10 +215,9 @@ h3 {
 }
 
 .project-info {
-  padding: 0 2vh 2vh 2vh;
-  background-color: $color-snow;
   flex: 0 2 auto;
   height: 100%;
+  width:90%;      
 }
 
 .github-info {
