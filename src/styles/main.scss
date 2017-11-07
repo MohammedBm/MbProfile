@@ -61,12 +61,10 @@ h3 {
 .main-app-nav {
   font-size: 2em;
   text-align: left;
+  margin-bottom:15px;
 }
 
 .project-container {
-  display: block;
-  width: 45%;
-  margin: 5px;  
   margin-bottom: 4vh;
   // -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   //   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
@@ -378,6 +376,11 @@ ul.nav{
   margin-top: 60px;
   height: 40vh;
   background-color: white;
+}
+
+.about {
+  background-color: white;
+  margin-bottom: 50px;
 }
 
 .navbar-brand {

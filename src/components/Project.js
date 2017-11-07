@@ -15,12 +15,12 @@ export default class Project extends Component {
 
     return (
         <div className="project-container col-lg-6 col-md-12 col-sm-12">
-        <div className="image-container centered" >
+          <div className="image-container centered" >
             <div className="screenshot-container">
-            {project.gfycat ? <div className="gfyitem centered" data-id="SilkyNextIrishwolfhound" ></div> : <img className='center-image' src={project.desktop_image}/> }
+              {project.gfycat ? <div className="gfyitem centered" data-id="SilkyNextIrishwolfhound" ></div> : <img className='center-image' src={project.desktop_image}/> }
             </div>
           </div>
-          <div className="project-info">
+            <div className="project-info">
             <a href={project.project_url}  className='link-to-project' target="_blank">
               <h2 className ='project-link'>{project.title}</h2>
             </a>

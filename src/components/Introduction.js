@@ -26,7 +26,7 @@ export default class Introduction extends Component {
             <i className="fa fa-linkedin icon iconOnJumbo"></i>
           </a>
         </div>
-        <div className='col-lg-6 col-md-6 hidden-xs'>
+        <div className='col-lg-6 col-md-6 hidden-sm hidden-xs'>
           <img src="http://svgshare.com/i/3ia.svg" height='600px'  />
         </div>
       </div>
