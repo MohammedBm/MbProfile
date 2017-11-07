@@ -41,7 +41,7 @@ export  class App extends Component {
           <Footer personalInfo={personalInfo} />
         </div>
       </div>
-    );
+    );  
   }
 }
 

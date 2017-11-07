@@ -14,7 +14,7 @@ export default class Project extends Component {
     });
 
     return (
-        <div className="project-container col-lg-6 col-md-6 col-sm-12">
+        <div className="project-container col-lg-6 col-md-12 col-sm-12">
         <div className="image-container centered" >
             <div className="screenshot-container">
             {project.gfycat ? <div className="gfyitem centered" data-id="SilkyNextIrishwolfhound" ></div> : <img className='center-image' src={project.desktop_image}/> }

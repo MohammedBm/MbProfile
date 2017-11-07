@@ -1,17 +1,6 @@
 const projectsData = {
   data: [
     {
-      desktop_image: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
-      mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
-      title: 'Project Title',
-      date: '2016',
-      github_url: 'https://github.com/',
-      project_url: 'https://github.com/',
-      background: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      role: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      tech_stack: ['React.js', 'socket.io', 'Redux', 'PostgreSQL', 'Node.js', 'express']
-    },
-    {
       desktop_image: 'https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Fbytesme.herokuapp.com%2F',
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'BytesMe',
@@ -23,6 +12,17 @@ const projectsData = {
       tech_stack: ['RubyOnRails','Materialize','JavaScript','PostgreSQL' ]
     },
     { 
+      desktop_image: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
+      mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
+      title: 'DevUp',
+      date: '2017 ',
+      github_url: 'https://github.com/MohammedBm/DevUp',
+      project_url: 'https://github.com/MohammedBm/DevUp',
+      background: 'DevUp is a application for team mangment. In this website other developer who are looking to do projects, work and help other developer. In the application the user can create rooms, in this rooms there will be deatils about the project what languages are used. This application is the perfect platform for developers who wants to communicate with other new developers.',
+      role: 'I developed this application fully using Ruby on Rails as a backend API. React was used to create the front-end of the application. Also, Bootstrap was used to create the UI',
+      tech_stack: ['RubyOnRails', 'React.js', 'PostgreSQL', 'Node.js', 'Firebase']
+    },
+    {
       desktop_image: 'https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Fmbreadable.herokuapp.com%2F',
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'MbReadable',
@@ -34,7 +34,28 @@ const projectsData = {
       tech_stack: ['React.js', 'Redux', 'Node.js', 'express', 'Bootstrap']
     },
     {
-
+      desktop_image: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
+      mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
+      title: 'DevUp',
+      date: '2017 ',
+      github_url: 'https://github.com/MohammedBm/DevUp',
+      project_url: 'https://github.com/MohammedBm/DevUp',
+      background: 'DevUp is a application for team mangment. In this website other developer who are looking to do projects, work and help other developer. In the application the user can create rooms, in this rooms there will be deatils about the project what languages are used. This application is the perfect platform for developers who wants to communicate with other new developers.',
+      role: 'I developed this application fully using Ruby on Rails as a backend API. React was used to create the front-end of the application. Also, Bootstrap was used to create the UI',
+      tech_stack: ['RubyOnRails', 'React.js', 'PostgreSQL', 'Node.js', 'Firebase']
+    },
+    {
+      desktop_image: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
+      mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
+      title: 'DevUp',
+      date: '2017 ',
+      github_url: 'https://github.com/MohammedBm/DevUp',
+      project_url: 'https://github.com/MohammedBm/DevUp',
+      background: 'DevUp is a application for team mangment. In this website other developer who are looking to do projects, work and help other developer. In the application the user can create rooms, in this rooms there will be deatils about the project what languages are used. This application is the perfect platform for developers who wants to communicate with other new developers.',
+      role: 'I developed this application fully using Ruby on Rails as a backend API. React was used to create the front-end of the application. Also, Bootstrap was used to create the UI',
+      tech_stack: ['RubyOnRails', 'React.js', 'PostgreSQL', 'Node.js', 'Firebase']
+    },
+    {
       desktop_image: 'https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Fmreads.herokuapp.com%2F',
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'MBamhrez Reads',
@@ -43,8 +64,10 @@ const projectsData = {
       project_url: 'https://mreads.herokuapp.com/',
       background: 'MBamhraz Reads is an application used to add books to your library so you can keep track of what books you are reading. To find books, you can use the search menu. You can add the book to three shelves Currently Reading, Want to Read, Read.',
       role:'In this Project, React.js was fully used to render and create the front-end. A straightforward API was used to fetch books to the application.',
-      tech_stack: ['React.js','Node.js']
-    }
+      tech_stack: ['React.js','Node.js','express']
+    },
+    
+    
   ]
 };
 

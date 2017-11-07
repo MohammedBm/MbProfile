@@ -64,13 +64,9 @@ h3 {
 }
 
 .project-container {
-  display: inline-block ;
-  flex-direction: column;
-  background-color: $project-container-color;
-  height: auto;
-  width: 49% ;
-  padding:20px;
-  margin: 5px; 
+  display: block;
+  width: 45%;
+  margin: 5px;  
   margin-bottom: 4vh;
   // -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   //   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
@@ -361,7 +357,6 @@ ul.nav{
 }
 
 .tech-icon:hover {
-  margin-left: 5px;
   color:#FD443E;
   height: 2em;
     transform: scale(1.03  , 1.03 );
