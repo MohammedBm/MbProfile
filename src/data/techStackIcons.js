@@ -1,5 +1,6 @@
 const iconsData = {
   'React.js': 'http://formatjs.io/img/react.svg',
+  'React-Native': 'http://formatjs.io/img/react.svg',
   'Node.js': 'https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png',
   express: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png',
   PostgreSQL: 'https://cdn.worldvectorlogo.com/logos/postgresql.svg',

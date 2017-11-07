@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <footer>
         <span id="footer-text-wrap">
-        Built by {personalInfo.name}.
+        Built by {personalInfo.name}. 
         </span>
       </footer>
     );

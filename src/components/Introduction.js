@@ -9,9 +9,9 @@ export default class Introduction extends Component {
         <div className=" jumbotron-on-intro col-lg-6 col-md-6 col-sm-12">
           <h1 className='hi-3'>Hi, I'm Mohammed</h1>
           <div className='lead text-on-jumbo'> 
-          <p >This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-          <hr />
           <p>Full-stack web developer, trained in Ruby, Ruby on Rails, Node, Javascript, C++ and others. Open to opportunities.</p>
+          <hr />
+          <p >Currently working on React and React-Native. Looking for any kind of project to build!.</p>
           </div>
           <br />
           <br />

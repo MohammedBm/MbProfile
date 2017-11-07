@@ -36,26 +36,15 @@ const projectsData = {
     {
       desktop_image: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
-      title: 'DevUp',
+      title: 'MbFlashCards',
       date: '2017 ',
-      github_url: 'https://github.com/MohammedBm/DevUp',
-      project_url: 'https://github.com/MohammedBm/DevUp',
-      background: 'DevUp is a application for team mangment. In this website other developer who are looking to do projects, work and help other developer. In the application the user can create rooms, in this rooms there will be deatils about the project what languages are used. This application is the perfect platform for developers who wants to communicate with other new developers.',
-      role: 'I developed this application fully using Ruby on Rails as a backend API. React was used to create the front-end of the application. Also, Bootstrap was used to create the UI',
-      tech_stack: ['RubyOnRails', 'React.js', 'PostgreSQL', 'Node.js', 'Firebase']
+      github_url: 'https://github.com/MohammedBm/MbFlashCards',
+      project_url: 'https://expo.io/@mohmedbm/MbFlashCards',
+      background: 'MbFlashcard brings your old method of studying to your phone. Now you can create your quizzes and test your knowledge. This application gives the user the ability to build their decks inside their decks the can create questions as flashcards.',
+      role: 'MbFlashCards was entirely designed from scratch using React-Native.  I designed the application using the human interface guidelines Apple provides on their website, as well as some Style packages from NPM.',
+      tech_stack: ['React-Native', 'React.js', 'Node.js', 'JavaScript']
     },
-    {
-      desktop_image: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
-      mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
-      title: 'DevUp',
-      date: '2017 ',
-      github_url: 'https://github.com/MohammedBm/DevUp',
-      project_url: 'https://github.com/MohammedBm/DevUp',
-      background: 'DevUp is a application for team mangment. In this website other developer who are looking to do projects, work and help other developer. In the application the user can create rooms, in this rooms there will be deatils about the project what languages are used. This application is the perfect platform for developers who wants to communicate with other new developers.',
-      role: 'I developed this application fully using Ruby on Rails as a backend API. React was used to create the front-end of the application. Also, Bootstrap was used to create the UI',
-      tech_stack: ['RubyOnRails', 'React.js', 'PostgreSQL', 'Node.js', 'Firebase']
-    },
-    {
+          {
       desktop_image: 'https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Fmreads.herokuapp.com%2F',
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'MBamhrez Reads',
