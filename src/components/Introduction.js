@@ -15,7 +15,7 @@ export default class Introduction extends Component {
           </div>
           <br />
           <br />
-          <p class="lead">
+          <p className="lead">
             <a href="mailto:email@address.com" className='btn btn-primary btn-on-intro'>Get in touch</a>
           </p>
           <br />  

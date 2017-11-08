@@ -16,17 +16,17 @@ export default class About extends Component {
               </p>
             </div>
             <article className='col-lg-6  col-md-6 col-sm-12 article-skills '>
-            <ul className='secondry-text list'>
-            <h3 className='header-skills'>
-              What I Do
-            </h3>
-            <li className='list-item'>UI/UX DESIGN</li>
-            <li className='list-item'>MOBILE/WEB APPS</li>
-            <li className='list-item'>STATIC WEB DEVELOPMENT</li>
-            <li className='list-item'>PROTOTYPING</li>
-            <li className='list-item'>USER TESTING</li>
-            <li className='list-item'>INTERACTIONS DESIGN</li>
-            </ul>
+              <ul className='secondry-text list'>
+                <h3 className='header-skills'>
+                  What I Do
+                </h3>
+                <li className='list-item'>APP/WEBSITE DEVELOPMENT</li>
+                <li className='list-item'>MOBILE APP</li>
+                <li className='list-item'>STATIC WEB DEVELOPMENT</li>
+                <li className='list-item'>USER TESTING</li>
+                <li className='list-item'>INTERACTIONS DESIGN</li>
+                <li className='list-item'>UI/UX DESIGN</li>
+              </ul>
             </article>
         </div>
       </div>
@@ -37,3 +37,4 @@ export default class About extends Component {
 About.propTypes = {
   // personalInfo: PropTypes.object.isRequired
 };
+  

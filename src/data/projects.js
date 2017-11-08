@@ -42,7 +42,7 @@ const projectsData = {
       project_url: 'https://expo.io/@mohmedbm/MbFlashCards',
       background: 'MbFlashcard brings your old method of studying to your phone. Now you can create your quizzes and test your knowledge. This application gives the user the ability to build their decks inside their decks the can create questions as flashcards.',
       role: 'MbFlashCards was entirely designed from scratch using React-Native.  I designed the application using the human interface guidelines Apple provides on their website, as well as some Style packages from NPM.',
-      tech_stack: ['React-Native', 'React.js', 'Node.js', 'JavaScript']
+      tech_stack: ['React-Native', 'React.js', 'Node.js', 'JavaScript', '']
     },
           {
       desktop_image: 'https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Fmreads.herokuapp.com%2F',

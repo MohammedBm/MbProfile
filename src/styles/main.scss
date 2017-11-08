@@ -65,6 +65,7 @@ h3 {
 }
 
 .project-container {
+  
   margin-bottom: 4vh;
   // -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   //   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
@@ -105,15 +106,17 @@ h3 {
 }
 
 .screenshot-container {
-  margin-right: 4vw;
+  margin-right: 5vw;
+  margin-left: 0.5vw;
   height: auto;
   width: 400px;  
 }
 
 .screenshot-container img {
-  width: 448px;
-  height:280px;
+  width: 45vh;
+  height:31.25vh;
   position: relative;
+  margin-left: 15px;  
 }
 
 .center-image{
@@ -358,9 +361,9 @@ ul.nav{
 .tech-icon:hover {
   color:#FD443E;
   height: 2em;
-    transform: scale(1.03  , 1.03 );
-    -webkit-transform: scale(1.03  , 1.03 );
-    -moz-transform: scale(1.03 , 1.03  );
+    transform: scale(1.01  , 1.01 );
+    -webkit-transform: scale(1.01  , 1.01 );
+    -moz-transform: scale(1.01 , 1.01  );
 
 }
 
@@ -417,7 +420,6 @@ ul.nav{
   padding-top: .25rem;
   padding-bottom: .25rem;
   line-height: 1.7;
-  font-size: 1.6rem;
 }
 
 .about {
@@ -430,3 +432,60 @@ ul.nav{
   font-size: 48px;
 }
 
+
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalDialog>div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+  background: #00d9ff;
+}
