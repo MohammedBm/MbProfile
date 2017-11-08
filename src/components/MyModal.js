@@ -11,9 +11,8 @@ export default class MyModal extends Component {
     });
 
     return (
-      < Modal
+      <Modal
         onRequestClose={onRequestClose}
-        className=''
         effect={Effect.Fall} >
         <div className="modal-header">
           <a href={project.project_url} className='link-to-project' target="_blank">
@@ -39,8 +38,8 @@ export default class MyModal extends Component {
         </div>
 
         <div className="modal-footer">
-          <button type="button" className="btn btn-default" onClick={ModalManager.close}>Close</button>
-          <button type="button" className="btn btn-primary" onClick={ModalManager.close}>OK</button>
+          <button type="button" className="btn btn-primary btn-on-intro" onClick={ModalManager.close}>Close</button>
+          <button type="button" className="btn btn-primary btn-on-intro" onClick={ModalManager.close}>OK</button>
         </div>
       </Modal >
     )

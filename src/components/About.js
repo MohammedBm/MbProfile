@@ -12,7 +12,7 @@ export default class About extends Component {
                 About
               </h3>
               <p className='secondry-text about'>
-                Incididunt eu adipisicing dolor occaecat mollit reprehenderit deserunt id.Ullamco amet incididunt occaecat sunt ex aute ea voluptate do enim consequat fugiat dolore Lorem. Et dolore anim pariatur do culpa ullamco id sint sint dolore eu qui consectetur sunt. Voluptate non magna reprehenderit dolore est deserunt reprehenderit nulla. Anim qui et quis fugiat culpa incididunt officia. Cillum laboris dolor labore veniam Lorem ad excepteur dolor tempor culpa ullamco dolor voluptate. Eiusmod veniam fugiat ullamco culpa minim. Cillum reprehenderit veniam sit sunt fugiat.
+                I create awesome looking website using different technoliges. specialising in web design and mobile with experience in front-end development using React and React-Native.
               </p>
             </div>
             <article className='col-lg-6  col-md-6 col-sm-12 article-skills '>

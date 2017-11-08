@@ -11,7 +11,7 @@ export default class Introduction extends Component {
           <div className='lead text-on-jumbo'> 
           <p>Full-stack web developer, trained in Ruby, Ruby on Rails, Node, Javascript, C++ and others. Open to opportunities.</p>
           <hr />
-          <p >Currently working on React and React-Native. Looking for any kind of project to build!.</p>
+          <p >Currently working on React and React-Native. Looking for challenging projects to build!</p>
           </div>
           <br />
           <br />

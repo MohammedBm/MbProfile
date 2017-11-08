@@ -28,6 +28,14 @@ export default class Project extends Component {
           <a href="#openModal" className='link-to-project' onClick={this.openModal.bind(this)}>
               <h2 className='project-link'>{project.title}</h2>
           </a>
+            <div className="project-info">
+              <a href={project.github_url} className='link-to-project' target="_blank">
+                {project.github_url !== '' ? 'Github' : null}
+              </a>
+              <div className='secondry-text'>{project.date}</div>
+              <h3>Background</h3>
+              <div className='secondry-text text-project'>{project.background}</div>
+            </div>
         </div>
     ); 
   }
