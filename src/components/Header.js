@@ -6,7 +6,7 @@ export default class Header extends Component {
     // add nav-fixed-top if you want the navbar to be fixed
 
     return (
-      <nav className="navbar navbar-fixed-top header">
+      <nav className="navbar header">
         <div className="container">
           <div className="navbar-brand name-head">
             <a href="#" > {personalInfo.name} </a>
@@ -19,7 +19,7 @@ export default class Header extends Component {
             </li>
             <li>
               <a href={personalInfo.email} className="nav-link">
-            <i className="fa fa-envelope Head"></i>
+                <i className="fa fa-envelope Head"></i>
               </a>
             </li>
               <li>

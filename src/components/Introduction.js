@@ -1,6 +1,8 @@
 import React, { Component, PropTypes } from 'react';
+import Modal from './Modal'
 
 export default class Introduction extends Component {
+
   render() {
     const { personalInfo } = this.props;
 
@@ -16,7 +18,8 @@ export default class Introduction extends Component {
           <br />
           <br />
           <p className="lead">
-            <a href="mailto:email@address.com" className='btn btn-primary btn-on-intro'>Get in touch</a>
+            {/* <a href="mailto:email@ad  dress.com" className='btn btn-primary btn-on-intro'>Get in touch</a> */}
+            <Modal personalInfo={personalInfo}/>   
           </p>
           <br />  
           <a href={personalInfo.github} className="jumboLink" target="_blank">

@@ -1,8 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:100,400);
-@import url(https://fonts.googzpis.com/css?family=Bitter);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
-
 $main-bg-color: rgb(255, 255, 255);
 $accent-blue: #37bbe4;
 $accent-gray: #e1e0dd;  
@@ -54,14 +49,26 @@ h3 {
   } 
 }
 
-.main-app-container {
-  padding-top: 2em;
+.img-on-about {
+  width: 15%;
+  border-radius:1000px
 }
 
 .main-app-nav {
   font-size: 2em;
   text-align: left;
   margin-bottom:15px;
+}
+
+.container-on-about{
+  width: 50%;
+  margin: 0 auto; 
+}
+
+.btn-on-about{
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
 }
 
 .project-container {
@@ -106,12 +113,13 @@ h3 {
 }
 
 .screenshot-container {
-  width: 400px; 
+  width: auto; 
+
 }
 
 .screenshot-container img {
-  height:31.25vh;
-  position: relative;
+  height:31.25vh;   
+  width: auto;
 }
 
 .center-image{
@@ -306,6 +314,23 @@ ul.nav{
   color: #3b465c;
 }
 
+.icon-on-about{
+    padding: 10px;
+    margin: 10px;
+    color: #3b465c;
+}
+
+
+.resume-on-about{
+  text-decoration: none !important;
+  color:$accent-black;
+  font-size: 20px;
+  &:hover{
+    color:$secondry-text;
+  }
+}
+
+
 .nav > li > a:focus,
 .nav > li > a:hover {
   text-decoration: none;
@@ -437,4 +462,76 @@ ul.nav{
 
 .modal-body{
   margin-left: 10px
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* The actual popup */
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+/* Popup arrow */
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+/* Toggle this class - hide and show the popup */
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+
+/* Add animation (fade in the popup) */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

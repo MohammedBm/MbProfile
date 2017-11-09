@@ -1,18 +1,31 @@
 const projectsData = {
   data: [
     {
-      desktop_image: 'https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Fbytesme.herokuapp.com%2F',
+      desktop_image: [
+        {
+          src: 'https://i.imgur.com/QcKTWzj.jpg',
+          thumbnail: 'https://i.imgur.com/QcKTWzj.jpg'
+        },
+        {
+          src: 'https://i.imgur.com/QcKTWzj.jpg'
+        }
+      ],
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'BytesMe',
       date: '2017',
-      github_url: 'https://github.com/ozgecokyasar/Bytes_met',
+      github_url: 'https://github.com/ozgecokyasar/Bytes_me',
       project_url: 'https://bytesme.herokuapp.com/',
       background: "This is a multiple choice quiz testing the user's coding knowledge which my group and I build over a weekend at CodeCore developer Bootcamp.",
       role: 'I took care of the front-end of the website as well as the user authentication. We used Ruby on Rails for the back-end and Materializes css for the front-end.',
       tech_stack: ['RubyOnRails','Materialize','JavaScript','PostgreSQL' ]
     },
     { 
-      desktop_image: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
+      desktop_image: [
+        {
+          src: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
+          thumbnail: 'https://dummyimage.com/mediumrectangle/222222/eeeeee'
+        }
+        ],
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'DevUp',
       date: '2017 ',
@@ -23,7 +36,13 @@ const projectsData = {
       tech_stack: ['RubyOnRails', 'React.js', 'PostgreSQL', 'Node.js', 'Firebase']
     },
     {
-      desktop_image: 'https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Fmbreadable.herokuapp.com%2F',
+      desktop_image: [
+        {
+          src: 'https://i.imgur.com/XTgzWzQ.png',
+          thumbnail: 'https://i.imgur.com/XTgzWzQ.png'
+
+        }
+      ],
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'MbReadable',
       date: '2017',
@@ -34,7 +53,13 @@ const projectsData = {
       tech_stack: ['React.js', 'Redux', 'Node.js', 'express', 'Bootstrap']
     },
     {
-      desktop_image: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
+      desktop_image: [
+        {
+        src: 'https://dummyimage.com/mediumrectangle/222222/eeeeee',
+        thumbnail: 'https://dummyimage.com/mediumrectangle/222222/eeeeee'
+
+      }
+    ],
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'MbFlashCards',
       date: '2017 ',
@@ -44,8 +69,14 @@ const projectsData = {
       role: 'MbFlashCards was entirely designed from scratch using React-Native.  I designed the application using the human interface guidelines Apple provides on their website, as well as some Style packages from NPM.',
       tech_stack: ['React-Native', 'React.js', 'Node.js', 'JavaScript', '']
     },
-          {
-      desktop_image: 'https://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=https%3A%2F%2Fmreads.herokuapp.com%2F',
+    {
+      desktop_image: [
+        {
+          src: 'https://i.imgur.com/3BZEDP4.png',
+          thumbnail: 'https://i.imgur.com/3BZEDP4.png'
+
+        }
+        ],
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'MBamhrez Reads',
       date: '2017',
