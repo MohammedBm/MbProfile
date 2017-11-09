@@ -15,7 +15,8 @@ const iconsData = {
   'RubyOnRails': 'https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png',
   'Materialize': 'https://seeklogo.com/images/M/materialize-logo-0FCAD8A6F8-seeklogo.com.png',
   JavaScript: 'https://www.acumensoftwaredesign.com/wp-content/uploads/2016/11/js.jpg',
-  Bootstrap: 'http://getbootstrap.com/assets/img/bootstrap-stack.png'
+  Bootstrap: 'http://getbootstrap.com/assets/img/bootstrap-stack.png',
+  Firebase: 'https://firebase.google.com/_static/images/firebase/touchicon-180.png'
 };
 
 export { iconsData };

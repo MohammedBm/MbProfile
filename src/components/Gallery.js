@@ -67,7 +67,7 @@ class Gallery extends Component {
           key={i}
           onClick={(e) => this.openLightbox(i, e)}
         >
-          <img src={obj.thumbnail} className={css(classes.source)} />
+          <img src={obj.thumbnail} className='center-image'/>
         </a>
       );
     });
@@ -82,7 +82,7 @@ class Gallery extends Component {
     const { project } = this.props;
 
     return (
-      <div className="section">
+      <div className="section ">
         {this.renderGallery()}
         <Lightbox
           currentImage={this.state.currentImage}
@@ -106,9 +106,6 @@ class Gallery extends Component {
 
 
 
-
-
-
 Gallery.displayName = 'Gallery';
 Gallery.propTypes = {
   heading: PropTypes.string,
@@ -118,8 +115,8 @@ Gallery.propTypes = {
 };
 
 const gutter = {
-  small: 2,
-  large: 4,
+  small: 12,
+  large: 12,
 };
 
 const classes = StyleSheet.create({
@@ -136,8 +133,6 @@ const classes = StyleSheet.create({
   thumbnail: {
     boxSizing: 'border-box',
     display: 'block',
-    float: 'left',
-    lineHeight: 0,
     paddingRight: gutter.small,
     paddingBottom: gutter.small,
     overflow: 'hidden',
@@ -165,7 +160,7 @@ const classes = StyleSheet.create({
   source: {
     border: 0,
     display: 'block',
-    height: 'auto',
+    height: '100%',
     maxWidth: '100%',
     width: 'auto',
   },

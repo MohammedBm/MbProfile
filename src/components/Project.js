@@ -47,7 +47,6 @@ export default class Project extends Component {
     ); 
   }
 }
-
 Project.propTypes = {
   project: PropTypes.object.isRequired
 };
