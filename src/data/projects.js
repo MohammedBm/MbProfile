@@ -26,7 +26,7 @@ const projectsData = {
       project_url: 'https://bytesme.herokuapp.com/',
       background: "This is a multiple choice quiz testing the user's coding knowledge which my group and I build over a weekend at CodeCore developer Bootcamp.",
       role: 'I took care of the front-end of the website as well as the user authentication. We used Ruby on Rails for the back-end and Materializes css for the front-end.',
-      tech_stack: ['RubyOnRails','Materialize','JavaScript','PostgreSQL' ]
+      tech_stack: ['RubyOnRails','Materialize','JavaScript','PostgreSQL','','' ]
     },
     { 
       desktop_image: [
@@ -68,7 +68,7 @@ const projectsData = {
       project_url: 'https://mbreadable.herokuapp.com/',
       background: 'MbReadable brings a straightforward forum model.In this forum users can interact with other users post via comments, likes or dislikes.',
       role:'This application was entirely designed using React as a front-end platform. Also, React-Redux was used to sort the data. A simple express API was used to create a database for the posts to be saved.',
-      tech_stack: ['React.js', 'Redux', 'Node.js', 'express', 'Bootstrap']
+      tech_stack: ['React.js', 'Redux', 'Node.js', 'express', 'Bootstrap','','']
     },
     {
       desktop_image: [
