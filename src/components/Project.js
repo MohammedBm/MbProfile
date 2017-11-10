@@ -42,8 +42,8 @@ export default class Project extends Component {
           <div className='secondry-text'>{project.role}</div>
           <h3>Tech Stack</h3>
           <div className="tech-icon-container">{techStackItems}</div>
-        </div>
           <hr />
+        </div>
       </div>
     ); 
   }

@@ -24,7 +24,9 @@ export  class App extends Component {
   render() {
     const { projects, benchmark, personalInfo } = this.props;
     const projectEntries = projects.map((project, index) => {
-      return <Project key={index} project={project} />;
+      return (
+      <Project key={index} project={project} />
+      );
     });
     // we can use ES6's object destructuring to effectively 'unpack' our props    
     return (  
