@@ -3,20 +3,20 @@ const projectsData = {
     {
       desktop_image: [
         {
-          src: 'https://i.imgur.com/QcKTWzj.jpg',
-          thumbnail: 'https://i.imgur.com/QcKTWzj.jpg'
+          src: 'https://i.imgur.com/98Hn9Mp.png',
+          thumbnail: 'https://i.imgur.com/98Hn9Mp.png'
         },
         {
-          src: 'https://i.imgur.com/9vWB9gC.png '
+          src: 'https://i.imgur.com/qgOx5Sz.png '
         },
         {
-          src: 'https://i.imgur.com/IsAJHnc.png '
+          src: 'https://i.imgur.com/bAdiSsl.png'
         },
         {
-          src: 'https://i.imgur.com/cq15Kug.png '
+          src: 'https://i.imgur.com/XauiSE0.png '
         },
         {
-          src: 'https://i.imgur.com/7I5YBtj.png '
+          src: 'https://i.imgur.com/lpSRdiJ.png '
         },
       ],
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
@@ -31,14 +31,14 @@ const projectsData = {
     { 
       desktop_image: [
         {
-          src: 'https://i.imgur.com/Nk0tDkz.png',
-          thumbnail: 'https://i.imgur.com/Nk0tDkz.png'
+          src: 'https://i.imgur.com/ATvpfAM.png',
+          thumbnail: 'https://i.imgur.com/ATvpfAM.png'
         },
         {
-          src: 'https://i.imgur.com/SiEsiBd.png '
+          src: 'https://i.imgur.com/q2oOS46.png '
         },
         {
-          src: 'https://i.imgur.com/ec81vPN.png '
+          src: 'https://i.imgur.com/75TObPM.png '
         },
 
         ],
@@ -54,12 +54,12 @@ const projectsData = {
     {
       desktop_image: [
         {
-          src: 'https://i.imgur.com/XTgzWzQ.png',
-          thumbnail: 'https://i.imgur.com/XTgzWzQ.png'
+          src: 'https://i.imgur.com/UEdesMX.png',
+          thumbnail: 'https://i.imgur.com/UEdesMX.png'
 
         },
-        { src:'https://i.imgur.com/6mRyESE.png'},
-        { src:'https://i.imgur.com/GzKc1dd.png'},
+        { src:'https://i.imgur.com/6PlBeH6.png'},
+        { src:'https://i.imgur.com/MmW9Lie.png'},
       ],
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'MbReadable',
@@ -95,11 +95,11 @@ const projectsData = {
     {
       desktop_image: [
         {
-          src: 'https://i.imgur.com/lN2A7h2.png',
-          thumbnail: 'https://i.imgur.com/lN2A7h2.png'
+          src: 'https://i.imgur.com/wxyhtHJ.png',
+          thumbnail: 'https://i.imgur.com/wxyhtHJ.png'
 
         },
-        { src:'https://i.imgur.com/HXeCs3L.png'}
+        { src:'https://i.imgur.com/OPz6gFB.png'}
         ],
       mobile_image: 'http://2.bp.blogspot.com/_o0sizlWlquE/SU_4cOXI3zI/AAAAAAAAAHo/aLUJ-5Oq_yI/s400/Color_Chart.jpg',
       title: 'MBamhrez Reads',

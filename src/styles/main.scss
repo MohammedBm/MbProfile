@@ -60,20 +60,35 @@ h3 {
   margin-bottom:15px;
 }
 
+.overlay  {
+  margin-top: 90px;
+  &:focus{
+    outline: 0;
+  }
+}
+
 .container-on-about{
   width: 50%;
   margin: 0 auto; 
 }
-
 .btn-on-about{
   align-items: center;
   align-content: center;
   margin: 0 auto;
+  outline: none !important;
+    &:focus {
+      background: $accent-gray;
+    }
+
+}
+
+.project-image{
+  margin-top: 30px  ;
 }
 
 .project-container {
   
-  margin-bottom: 4vh;
+  margin-bottom: 5vh;
   // -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   //   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
   //         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;   // <---these can be added to add shadow for the boxes
@@ -83,6 +98,10 @@ h3 {
   border-radius: 6px;
   padding: 10px 20px;
   transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+  outline: none !important;
+  &:focus{
+    background: $accent-gray;
+  }
 }
 
 .btn-on-intro:hover {
@@ -118,8 +137,9 @@ h3 {
 }
 
 .screenshot-container img {
-  height:31.25vh;   
+  height:500px;   
   width: auto;
+  margin-left:-100px;
 }
 
 .center-image{

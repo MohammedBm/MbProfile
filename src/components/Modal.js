@@ -28,6 +28,7 @@ export default class Modal extends React.Component {
       <div>
         <button className='btn btn-primary btn-on-intro' onClick={this.handleOpenModal}>More Info</button>
         <ReactModal
+        className='overlay'
           isOpen={this.state.showModal}
           contentLabel="Minimal Modal Example"
         >
@@ -70,7 +71,7 @@ export default class Modal extends React.Component {
                 </div>
                 <br />
                 <div className='text-center'>
-                <button className='btn btn-primary btn-on-intro btn-on-about text-center' onClick={this.handleCloseModal}>Close Modal</button>
+                <button className='btn btn-primary btn-on-intro btn-on-about text-center' onClick={this.handleCloseModal}>Close</button>
 
                 </div>
               </div>

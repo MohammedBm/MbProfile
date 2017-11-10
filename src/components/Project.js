@@ -22,13 +22,13 @@ export default class Project extends Component {
     });
 
     return (
-      <div className="project-container col-lg-6 col-md-12 col-sm-12">
-        <div className="image-container" >
-          <div className="screenshot-container img-responsive center-block">
+      <div className="project-container row">
+        <div className=" col-md-6" >
+          <div className=" project-image center-block">
             <Gallery  project={project} />
           </div>
         </div>
-        <div className="project-info">
+        <div className=" col-md-6">
           <a href={project.project_url} className='link-to-project' target="_blank">
             <h2 className='project-link'>{project.title}</h2>
           </a>
@@ -43,6 +43,7 @@ export default class Project extends Component {
           <h3>Tech Stack</h3>
           <div className="tech-icon-container">{techStackItems}</div>
         </div>
+          <hr />
       </div>
     ); 
   }

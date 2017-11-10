@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <footer>
         <span id="footer-text-wrap">
-        Built by {personalInfo.name}. 
+          Built by {personalInfo.name} using <a href="https://github.com/react-portfolio/react-portfolio">React-Portfolio</a>. 
         </span>
       </footer>
     );

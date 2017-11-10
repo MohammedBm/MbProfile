@@ -35,7 +35,7 @@ export  class App extends Component {
           {/* <Statistics benchmark={benchmark} /> */}
           <Introduction personalInfo={personalInfo} />
           <About />
-            <div className="main-app-nav">Selected Projects</div>
+          <div className="main-app-nav" id="Project">Selected Projects</div>
           <div className='row'>
             {projectEntries}
           </div>

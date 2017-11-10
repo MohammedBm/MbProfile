@@ -67,7 +67,7 @@ class Gallery extends Component {
           key={i}
           onClick={(e) => this.openLightbox(i, e)}
         >
-          <img src={obj.thumbnail} className='center-image'/>
+          <img src={obj.thumbnail} className={css(classes.source)} />
         </a>
       );
     });
@@ -145,11 +145,11 @@ const classes = StyleSheet.create({
 
   // orientation
   landscape: {
-    width: '30%',
+    width: '120%',
   },
   square: {
     paddingBottom: 0,
-    width: '40%',
+    width: '120%',
 
     '@media (min-width: 500px)': {
       paddingBottom: 0,
@@ -161,9 +161,9 @@ const classes = StyleSheet.create({
     border: 0,
     display: 'block',
     height: '100%',
-    maxWidth: '100%',
-    width: 'auto',
+    width: '100%',
   },
 });
 
 export default Gallery;
+// 

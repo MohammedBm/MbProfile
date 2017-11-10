@@ -6,10 +6,13 @@ export default class Header extends Component {
     // add nav-fixed-top if you want the navbar to be fixed
 
     return (
-      <nav className="navbar header">
+      <nav className="navbar navbar-fixed-top header">
         <div className="container">
           <div className="navbar-brand name-head">
             <a href="#" > {personalInfo.name} </a>
+          </div>
+          <div className="navbar-brand name-head">
+            <a href="#Project" > Projects </a>
           </div>
           <ul className="nav navbar-nav pull-right">
             <li>
