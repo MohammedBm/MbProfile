@@ -3,8 +3,8 @@ const projectsData = {
     {
       desktop_image: [
         {
-          src: 'https://i.imgur.com/98Hn9Mp.png',
-          thumbnail: 'https://i.imgur.com/98Hn9Mp.png'
+          src: 'https://i.imgur.com/m75Sgel.png',
+          thumbnail: 'https://i.imgur.com/m75Sgel.png'
         },
         {
           src: 'https://i.imgur.com/qgOx5Sz.png '
